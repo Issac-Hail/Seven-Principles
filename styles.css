@@ -52,6 +52,7 @@ h4 {
     background-color: rgb(98, 39, 0);
     border-radius: 30px;
     padding: 10px;
+    margin-bottom: 30px;
 }
 
 .orange {
@@ -59,8 +60,7 @@ h4 {
 }
 
 .title {
-font-family: ;
-
+    font-family: "Cinzel Decorative", serif;
 }
 
 a {
@@ -76,4 +76,44 @@ a {
 a:hover {
     background-color: chocolate;
     color: black;
+}
+
+.size {
+    font-size: 80px;
+}
+
+.weight {
+    font-weight: 100;
+    font-size: 60px;
+}
+
+.form {
+    font-style: italic;
+    font-size: 20px;
+}
+
+.structure {
+    word-spacing: 100px;
+}
+
+.texture {
+    line-height: 0px;
+}
+
+.color {
+    color: black;
+}
+
+.direction {
+    direction:rtl;
+}
+
+.all {
+    font-size: 80px;
+    font-weight: 100;
+    font-style: italic;
+    word-spacing: 100px;
+    line-height: 70px;
+    color: black;
+    direction:rtl;
 }
